@@ -13,6 +13,29 @@
 		<title>Natours | Exciting tours for adventurous people</title>
 	</head>
 	<body>
+
+		<!-- Menu -->
+		<div class="navigation">
+			<input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+			<label for="navi-toggle" class="navigation__button">
+				<span class="navigation__icon">&nbsp;</span>
+			</label>
+
+			<div class="navigation__background">&nbsp;</div>
+
+			<nav class="navigation__nav">
+				<ul class="navigation__list">
+					<li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natour</a></li>
+					<li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
+					<li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
+					<li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+					<li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Header -->
 		<header class="header">
 			<div class="header__logo-box">
 				<img src="img/logo-white.png" alt="Logo" class="header__logo">
@@ -30,6 +53,7 @@
 
 		<main>
 
+			<!-- About section -->
 			<section class="section-about">
 				<div class="u-center-text u-margin-bottom-big">
 					<h2 class="heading-secondary">
@@ -60,6 +84,7 @@
 				</div>  
 			</section>
 
+			<!-- Tour feacture section -->
 			<section class="section-features">
 				<div class="row">
 					<div class="col-1-of-4">
@@ -104,6 +129,7 @@
 				</div>
 			</section>
 
+			<!-- Tour section -->
 			<section class="section-tours">
 				<div class="u-center-text u-margin-bottom-big">
 					<h2 class="heading-secondary">
@@ -212,6 +238,7 @@
 
 			</section>
 
+			<!-- Stories section -->
 			<section class="section-stories">
 
 				<div class="bg-video">
@@ -269,6 +296,7 @@
 				</div>
 			</section>
 
+			<!-- Booking section -->
 			<section class="section-book">
 				<div class="row">
 					<div class="book">
@@ -320,8 +348,49 @@
 			</section>
 
 		</main>
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="footer__logo-box">
+				<img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+			</div>
+			<div class="row">
+				<div class="col-1-of-2">
+					<div class="footer__navigation">
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+						</ul>
+					</div>
+				</div>
 
+				<div class="col-1-of-2">
+					<p class="footer__copyright">
+						Built my student <a href="#" class="footer__link">Jean-Pierre Papin</a> from the online course <a href="#" class="footer__link">Advanced CSS and Sass</a>. Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated.
+					</p>
+				</div>
+			</div>
+		</footer>
 
+		<!-- Popup -->
+		<div class="popup">
+			<div class="popup__content">
+				<div class="popup__left">
+					<img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+					<img src="img/nat-8=9.jpg" alt="Tour photo" class="popup__img">
+				</div>
+				<div class="popup__right">
+					<h2 class="heading-secondary">Start booking now</h2>
+					<h3 class="heading-tertiary">Important &ndash; Please read these terms before booking</h3>
+					<p class="popup_text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a nulla sit amet odio luctus pulvinar. Fusce feugiat tortor eget purus varius, non molestie augue scelerisque. Phasellus sit amet ante tempor, sagittis velit sit amet, elementum mi. Cras rutrum mauris malesuada, luctus lectus eget, tempus dui. Duis quis lobortis sem, ut faucibus orci. Vestibulum gravida ultrices nulla eget pretium. Maecenas vel finibus lectus. Sed et augue lobortis, rutrum elit eget, rutrum est. In hac habitasse platea dictumst. Mauris euismod condimentum risus, sit amet sodales tortor interdum at. Maecenas fringilla condimentum ante pellentesque dignissim. Aliquam nec elementum sapien. Nullam vitae efficitur sem. Quisque pretium turpis felis, non viverra sem sodales at.
+					</p>
+				</div>
+			</div>
+		</div>
 
 <!-- 
 		<section class="grid-test">
