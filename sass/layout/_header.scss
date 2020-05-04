@@ -8,7 +8,6 @@
   background-size: cover;
   background-position: top;
   position: relative;
-  
 
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -16,6 +15,99 @@
     height: 95vh;
   }
 
+  // Clip path for all the other html files
+  &-contact {
+    height: 85vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8), 
+        rgba($color-primary-dark, 0.8)), 
+    url(../img/ave-calvar-6zcW_QhktpI-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      height: 95vh;
+    }
+  }
+
+  &-about {
+    height: 85vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.25), 
+        rgba($color-primary-dark, 0.25)), 
+    url(../img/dave-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      height: 95vh;
+    }
+  }
+  
+  &-terms {
+    height: 85vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8), 
+        rgba($color-primary-dark, 0.8)), 
+    url(../img/jake-nackos-S1e62DZCSoY-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      height: 95vh;
+    }
+  }
+
+  &-careers {
+    height: 85vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8), 
+        rgba($color-primary-dark, 0.8)), 
+    url(../img/tim-mossholder-GOMhuCj-O9w-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      height: 95vh;
+    }
+  }
+
+  &-policy {
+    height: 1200px;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8), 
+        rgba($color-primary-dark, 0.8)), 
+    url(../img/jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      height: 95vh;
+    }
+  
+  }
+
+  // Media queries for the responsive design
 
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
          only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
