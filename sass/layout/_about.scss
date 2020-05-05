@@ -1,0 +1,35 @@
+.about {
+    background-color: $color-grey-light-1;
+    
+
+    &__title {
+        font-family: Lato, sans-serif;
+        font-size: 5rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    &__content {
+        margin: 0 auto;
+        padding: 3rem;
+    }
+
+    &__img {
+        height: 48.9rem;
+        width: 32.6rem;
+        padding: 2rem 0;
+        margin: 0 auto;
+        /* align-items: center;
+        justify-items: center; */
+        border-radius: 50%;
+    }
+
+    &__paragraph {
+        font-family: Lato, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 100;
+        padding: 1.5rem 8rem;
+        //text-align: center;
+        text-justify: auto;
+    }
+}
